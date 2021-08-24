@@ -1,15 +1,15 @@
-## Docket-SMS 
-##### (PHP based algorithm behind the Docket TMSL application)
+# Docket-SMS 
+#### (PHP based algorithm behind the Docket TMSL application)
 Last year, I started working with a rising transportation company to see if we could develop a light-weight solution for a niche problem. I was tasked with the development of an application that was capable of automating communication between 3rd party truck drivers and the dispatchers in which this company employed. Over multiple iterations, this package is what resulted as the primary backend structure for the Docket TMSL application.
 
 ###### *Please keep in mind that this repository only displays demo code. Unfortunately, most files have to be omiited. 
 
-### Features
+## Features
 * **Automated communication:** Serves as an intermediary between multiple parties, automating communication between them via SMS and email.
 * **State based infrastructure:** 'States' are the building blocks behind the logic of Docket SMS. Each state is a class with a series of methods and properties. Docket is able to determine the state of a "load" by each SMS message, 24 hour period, appointment, or even entire trip.
 * **Cleverly reads text:** Uses string parsing as well as the events of the trip up to that point to determine the intent (or state) of a returned SMS message and notify all parties accordingly.
 
-### Usage
+## Usage
 This package was developed to be easy to use throughout the application. For example, to send or receive a text via an http request is as simple as:
 ```php
 Docket::SMS($request)->send();
