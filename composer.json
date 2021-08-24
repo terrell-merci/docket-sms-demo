@@ -1,0 +1,19 @@
+{
+    "name": "merciall/docket-sms",
+    "description": "Base algorithm for the Docket app.",
+    "type": "library",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Terrell Finklea",
+            "email": "terrell.finklea@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Merciall\\Docket\\": "src/"
+        }
+    }
+}
