@@ -1,7 +1,8 @@
-## Docket SMS (as a Laravel package)
-PHP powered base package behind the Docket TMSL application. Last year I started working with an upstart transportation company to see if I could development a light-weight solution for a niche problem. I was tasked with the development of an application that was capable of automating communication between 3rd party truck drivers and the dispatchers in which this company employed. Over multiple iterations, this package is what resulted as the base piece of software and algorithm for the application.
+## Docket-SMS 
+##### (PHP based algorithm behind the Docket TMSL application)
+Last year, I started working with an upstart transportation company to see if we could develop a light-weight solution for a niche problem. I was tasked with the development of an application that was capable of automating communication between 3rd party truck drivers and the dispatchers in which this company employed. Over multiple iterations, this package is what resulted as the primary backend structure for the Docket TMSL application.
 
-###### *Please keep in mind that this repository only displays demo code. Most files unfortunately have to be omiited. 
+###### *Please keep in mind that this repository only displays demo code. Most files unfortunately have to be omiited as it is proprietary. 
 
 ### Features
 * **Automated communication:** Serves as an intermediary between multiple parties, automating communication between them via SMS and email.
