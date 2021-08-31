@@ -10,7 +10,7 @@ Last year, I started working with a rising transportation company to see if we c
 * **Cleverly reads text:** Uses string parsing as well as the events of the trip up to that point to determine the intent (or state) of a returned SMS message and notify all parties accordingly.
 
 ## Usage
-This package was developed to be easy to use throughout the application. For example, to send or receive a text via an http request is as simple as:
+This package was developed to be easy to use throughout the application. For example, sending or receiving a text via an Http request is as simple as:
 ```php
 Docket::SMS($request)->send();
 // or
